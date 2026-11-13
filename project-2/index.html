@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Aurelia — contemporary dining experience."
+    >
+
+    <title>Aurelia — Contemporary Dining</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="cursor-light"></div>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header" id="header">
+
+    <a href="#home" class="logo">
+        <span>A</span>
+        AURELIA
+    </a>
+
+    <nav class="nav" id="nav">
+        <a href="#home">Home</a>
+        <a href="#story">Our Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="reserve-nav open-booking">
+        Reserve a table
+        <span>↗</span>
+    </button>
+
+    <button
+        class="menu-button"
+        id="menuButton"
+        aria-label="Open navigation"
+    >
+        <span></span>
+        <span></span>
+    </button>
+
+</header>
+
+
+<main>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-background">
+
+        <div class="hero-image">
+            <div class="proc-scene hero-scene" aria-hidden="true">
+                <div class="scene-window"></div>
+                <div class="scene-lamp scene-lamp-one"></div>
+                <div class="scene-lamp scene-lamp-two"></div>
+                <div class="scene-table"></div>
+                <div class="scene-plate"></div>
+                <div class="scene-food"></div>
+                <div class="scene-glass"></div>
+                <div class="scene-candle"></div>
+            </div>
+        </div>
+
+        <div class="hero-overlay"></div>
+
+    </div>
+
+
+    <div class="hero-content">
+
+        <div class="eyebrow reveal">
+            <span></span>
+            CONTEMPORARY DINING · EST. 2018
+        </div>
+
+        <h1 class="reveal">
+            Taste the
+            <em>moment.</em>
+        </h1>
+
+        <p class="hero-description reveal">
+            Seasonal ingredients, thoughtful cooking and
+            unforgettable evenings in the heart of the city.
+        </p>
+
+        <div class="hero-actions reveal">
+
+            <button class="main-button light open-booking">
+                Reserve a table
+                <span>↗</span>
+            </button>
+
+            <a href="#menu" class="text-link">
+                Explore our menu
+                <span>↓</span>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-bottom">
+
+        <div>
+            <small>LOCATION</small>
+            <span>24 Aurelia Street · London</span>
+        </div>
+
+        <div>
+            <small>DINNER</small>
+            <span>Tue — Sun · 17:30 — 23:00</span>
+        </div>
+
+        <div>
+            <small>RESERVATIONS</small>
+            <span>Available online</span>
+        </div>
+
+    </div>
+
+
+    <div class="scroll-indicator">
+        <span></span>
+        SCROLL
+    </div>
+
+</section>
+
+
+<!-- ================= INTRO ================= -->
+
+<section class="intro" id="story">
+
+    <div class="section-label reveal">
+        <span>01</span>
+        OUR PHILOSOPHY
+    </div>
+
+
+    <div class="intro-content">
+
+        <h2 class="reveal">
+            Simple ingredients.
+            <br>
+            <em>Extraordinary</em> experiences.
+        </h2>
+
+        <div class="intro-text reveal">
+
+            <p>
+                Aurelia is built around a simple idea:
+                exceptional food begins with exceptional ingredients.
+            </p>
+
+            <p>
+                Our seasonal menus celebrate local produce,
+                modern techniques and the people who bring
+                every plate to life.
+            </p>
+
+            <a href="#experience">
+                Discover our story
+                <span>↗</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FEATURE IMAGE ================= -->
+
+<section class="feature-photo reveal">
+
+    <div class="feature-image">
+        <div class="proc-scene dish-scene" aria-hidden="true">
+            <div class="dish-table"></div>
+            <div class="dish-plate"></div>
+            <div class="dish-core"></div>
+            <div class="dish-sauce"></div>
+            <div class="dish-garnish garnish-one"></div>
+            <div class="dish-garnish garnish-two"></div>
+            <div class="dish-garnish garnish-three"></div>
+            <div class="dish-fork"></div>
+        </div>
+    </div>
+
+    <div class="feature-card">
+
+        <span class="feature-number">01</span>
+
+        <small>OUR KITCHEN</small>
+
+        <h3>
+            Led by season.
+            <br>
+            Guided by taste.
+        </h3>
+
+        <p>
+            Our menu changes throughout the year,
+            following the ingredients at their very best.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= MENU ================= -->
+
+<section class="menu-section" id="menu">
+
+    <div class="menu-heading">
+
+        <div class="section-label reveal">
+            <span>02</span>
+            THE MENU
+        </div>
+
+        <div class="menu-title reveal">
+
+            <div>
+                <small>SEASONAL SELECTION</small>
+
+                <h2>
+                    Crafted for
+                    <em>the evening.</em>
+                </h2>
+            </div>
+
+            <p>
+                A selection of Aurelia favourites.
+                Our menu evolves with the seasons.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- FILTERS -->
+
+    <div class="menu-filters reveal">
+
+        <button class="filter active" data-filter="all">
+            All
+        </button>
+
+        <button class="filter" data-filter="starter">
+            Starters
+        </button>
+
+        <button class="filter" data-filter="main">
+            Mains
+        </button>
+
+        <button class="filter" data-filter="dessert">
+            Desserts
+        </button>
+
+        <button class="filter" data-filter="drink">
+            Drinks
+        </button>
+
+    </div>
+
+
+    <!-- MENU ITEMS -->
+
+    <div class="menu-list">
+
+        <article class="menu-item reveal" data-category="starter">
+
+            <div class="dish-number">
+                01
+            </div>
+
+            <div class="dish-info">
+                <h3>Burrata & Heritage Tomato</h3>
+
+                <p>
+                    Basil oil · aged balsamic · sourdough
+                </p>
+            </div>
+
+            <div class="dish-tags">
+                <span>V</span>
+            </div>
+
+            <strong>£16</strong>
+
+        </article>
+
+
+        <article class="menu-item reveal" data-category="starter">
+
+            <div class="dish-number">
+                02
+            </div>
+
+            <div class="dish-info">
+                <h3>Seared Scallops</h3>
+
+                <p>
+                    Cauliflower · brown butter · capers
+                </p>
+            </div>
+
+            <div class="dish-tags">
+                <span>GF</span>
+            </div>
+
+            <strong>£19</strong>
+
+        </article>
+
+
+        <article class="menu-item reveal" data-category="main">
+
+            <div class="dish-number">
+                03
+            </div>
+
+            <div class="dish-info">
+                <h3>Wild Mushroom Risotto</h3>
+
+                <p>
+                    Parmesan · truffle · garden herbs
+                </p>
+            </div>
+
+            <div class="dish-tags">
+                <span>V</span>
+                <span>GF</span>
+            </div>
+
+            <strong>£27</strong>
+
+        </article>
+
+
+        <article class="menu-item reveal" data-category="main">
+
+            <div class="dish-number">
+                04
+            </div>
+
+            <div class="dish-info">
+                <h3>Roasted Sea Bass</h3>
+
+                <p>
+                    Fennel · lemon · beurre blanc
+                </p>
+            </div>
+
+            <div class="dish-tags">
+                <span>GF</span>
+            </div>
+
+            <strong>£34</strong>
+
+        </article>
+
+
+        <article class="menu-item reveal" data-category="main">
+
+            <div class="dish-number">
+                05
+            </div>
+
+            <div class="dish-info">
+                <h3>Aged Beef Fillet</h3>
+
+                <p>
+                    Potato pavé · shallot · red wine jus
+                </p>
+            </div>
+
+            <div class="dish-tags">
+                <span>GF</span>
+            </div>
+
+            <strong>£42</strong>
+
+        </article>
+
+
+        <article class="menu-item reveal" data-category="dessert">
+
+            <div class="dish-number">
+                06
+            </div>
+
+            <div class="dish-info">
+                <h3>Dark Chocolate</h3>
+
+                <p>
+                    Hazelnut · sea salt · vanilla
+                </p>
+            </div>
+
+            <div class="dish-tags">
+                <span>V</span>
+            </div>
+
+            <strong>£13</strong>
+
+        </article>
+
+
+        <article class="menu-item reveal" data-category="dessert">
+
+            <div class="dish-number">
+                07
+            </div>
+
+            <div class="dish-info">
+                <h3>Lemon Tart</h3>
+
+                <p>
+                    Crème fraîche · citrus · almond
+                </p>
+            </div>
+
+            <div class="dish-tags">
+                <span>V</span>
+            </div>
+
+            <strong>£12</strong>
+
+        </article>
+
+
+        <article class="menu-item reveal" data-category="drink">
+
+            <div class="dish-number">
+                08
+            </div>
+
+            <div class="dish-info">
+                <h3>Aurelia Spritz</h3>
+
+                <p>
+                    Bergamot · elderflower · sparkling wine
+                </p>
+            </div>
+
+            <div class="dish-tags"></div>
+
+            <strong>£14</strong>
+
+        </article>
+
+    </div>
+
+
+    <div class="menu-footer reveal">
+
+        <span>
+            V — Vegetarian · GF — Gluten Free
+        </span>
+
+        <button class="menu-download">
+            View full menu
+            <span>↗</span>
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EXPERIENCE ================= -->
+
+<section class="experience" id="experience">
+
+    <div class="experience-visual reveal">
+
+        <div class="experience-image">
+            <div class="proc-scene room-scene" aria-hidden="true">
+                <div class="room-window"></div>
+                <div class="room-light room-light-one"></div>
+                <div class="room-light room-light-two"></div>
+                <div class="room-table room-table-one"></div>
+                <div class="room-table room-table-two"></div>
+                <div class="room-table room-table-three"></div>
+                <div class="room-chair chair-one"></div>
+                <div class="room-chair chair-two"></div>
+                <div class="room-plant"></div>
+            </div>
+        </div>
+
+        <div class="experience-year">
+            <span>EST.</span>
+            <strong>2018</strong>
+        </div>
+
+    </div>
+
+
+    <div class="experience-content reveal">
+
+        <div class="section-label">
+            <span>03</span>
+            THE EXPERIENCE
+        </div>
+
+        <small>
+            MORE THAN DINNER
+        </small>
+
+        <h2>
+            An evening to
+            <em>remember.</em>
+        </h2>
+
+        <p>
+            From the first welcome to the final course,
+            every detail at Aurelia is designed to create
+            an effortless and memorable evening.
+        </p>
+
+
+        <div class="experience-points">
+
+            <div>
+                <span>01</span>
+
+                <div>
+                    <strong>Seasonal kitchen</strong>
+                    <p>
+                        Menus inspired by ingredients
+                        at their peak.
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <span>02</span>
+
+                <div>
+                    <strong>Curated wine</strong>
+                    <p>
+                        Thoughtful bottles from independent
+                        producers.
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <span>03</span>
+
+                <div>
+                    <strong>Intimate atmosphere</strong>
+                    <p>
+                        Warm interiors designed for
+                        long evenings.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= QUOTE ================= -->
+
+<section class="quote-section">
+
+    <span class="quote-mark reveal">
+        “
+    </span>
+
+    <blockquote class="reveal">
+        Food should feel familiar enough
+        to comfort you, and surprising enough
+        to stay with you.
+    </blockquote>
+
+    <div class="quote-author reveal">
+        <span></span>
+
+        <div>
+            <strong>Elena Moreau</strong>
+            <small>HEAD CHEF · AURELIA</small>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- ================= GALLERY ================= -->
+
+<section class="gallery">
+
+    <div class="gallery-heading reveal">
+
+        <div class="section-label">
+            <span>04</span>
+            AURELIA
+        </div>
+
+        <h2>
+            Inside the
+            <em>experience.</em>
+        </h2>
+
+    </div>
+
+
+    <div class="gallery-grid">
+
+        <button
+            class="gallery-item gallery-one reveal"
+            data-gallery="1"
+            aria-label="Open gallery image"
+        >
+            <div class="gallery-art gallery-art-one" aria-hidden="true"></div>
+            <div class="gallery-art gallery-art-two" aria-hidden="true"></div>
+            <div class="gallery-art gallery-art-three" aria-hidden="true"></div>
+            <span>VIEW</span>
+        </button>
+
+        <button
+            class="gallery-item gallery-two reveal"
+            data-gallery="2"
+            aria-label="Open gallery image"
+        >
+            <span>VIEW</span>
+        </button>
+
+        <button
+            class="gallery-item gallery-three reveal"
+            data-gallery="3"
+            aria-label="Open gallery image"
+        >
+            <span>VIEW</span>
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- ================= RESERVATION CTA ================= -->
+
+<section class="reservation-cta" id="contact">
+
+    <div class="reservation-background">
+        <div class="proc-scene reserve-scene" aria-hidden="true">
+            <div class="reserve-arch"></div>
+            <div class="reserve-table"></div>
+            <div class="reserve-plate reserve-plate-one"></div>
+            <div class="reserve-plate reserve-plate-two"></div>
+            <div class="reserve-glass reserve-glass-one"></div>
+            <div class="reserve-glass reserve-glass-two"></div>
+            <div class="reserve-candle reserve-candle-one"></div>
+            <div class="reserve-candle reserve-candle-two"></div>
+        </div>
+    </div>
+
+    <div class="reservation-overlay"></div>
+
+    <div class="reservation-content reveal">
+
+        <small>
+            YOUR TABLE IS WAITING
+        </small>
+
+        <h2>
+            Join us for
+            <em>dinner.</em>
+        </h2>
+
+        <p>
+            Reservations are available Tuesday through Sunday.
+        </p>
+
+        <button class="main-button light open-booking">
+            Reserve a table
+            <span>↗</span>
+        </button>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-top">
+
+        <a href="#home" class="footer-logo">
+            AURELIA
+        </a>
+
+        <p>
+            Contemporary seasonal dining,
+            created for memorable evenings.
+        </p>
+
+    </div>
+
+
+    <div class="footer-grid">
+
+        <div>
+            <small>VISIT</small>
+
+            <p>
+                24 Aurelia Street<br>
+                London, W1
+            </p>
+        </div>
+
+        <div>
+            <small>OPENING HOURS</small>
+
+            <p>
+                Tuesday — Sunday<br>
+                17:30 — 23:00
+            </p>
+        </div>
+
+        <div>
+            <small>FOLLOW</small>
+
+            <a href="#">Instagram</a>
+            <a href="#">Pinterest</a>
+        </div>
+
+        <div>
+            <small>CONTACT</small>
+
+            <a href="#">hello@aurelia.example</a>
+
+            <button class="open-booking footer-booking">
+                Reservations ↗
+            </button>
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 Aurelia · Concept project
+        </span>
+
+        <a href="#home">
+            Back to top ↑
+        </a>
+
+    </div>
+
+</footer>
+
+
+<!-- ================= BOOKING MODAL ================= -->
+
+<div class="booking-modal" id="bookingModal">
+
+    <div
+        class="booking-overlay"
+        id="bookingOverlay"
+    ></div>
+
+
+    <div class="booking-panel">
+
+        <button
+            class="booking-close"
+            id="bookingClose"
+            aria-label="Close booking"
+        >
+            ×
+        </button>
+
+
+        <div class="booking-heading">
+
+            <small>
+                RESERVATIONS
+            </small>
+
+            <h2>
+                Reserve your
+                <em>table.</em>
+            </h2>
+
+            <p>
+                Choose your preferred date, time and party size.
+            </p>
+
+        </div>
+
+
+        <form id="bookingForm">
+
+            <div class="form-row">
+
+                <label>
+                    Date
+
+                    <input
+                        type="date"
+                        id="bookingDate"
+                        required
+                    >
+                </label>
+
+
+                <label>
+                    Guests
+
+                    <select id="bookingGuests" required>
+                        <option value="">Select</option>
+                        <option>1 guest</option>
+                        <option>2 guests</option>
+                        <option>3 guests</option>
+                        <option>4 guests</option>
+                        <option>5 guests</option>
+                        <option>6 guests</option>
+                    </select>
+                </label>
+
+            </div>
+
+
+            <label>
+                Available time
+            </label>
+
+
+            <div class="time-grid">
+
+                <button
+                    type="button"
+                    class="time-option"
+                    data-time="17:30"
+                >
+                    17:30
+                </button>
+
+                <button
+                    type="button"
+                    class="time-option"
+                    data-time="18:30"
+                >
+                    18:30
+                </button>
+
+                <button
+                    type="button"
+                    class="time-option"
+                    data-time="19:30"
+                >
+                    19:30
+                </button>
+
+                <button
+                    type="button"
+                    class="time-option"
+                    data-time="20:30"
+                >
+                    20:30
+                </button>
+
+                <button
+                    type="button"
+                    class="time-option"
+                    data-time="21:30"
+                >
+                    21:30
+                </button>
+
+            </div>
+
+
+            <input
+                type="hidden"
+                id="bookingTime"
+                required
+            >
+
+
+            <div class="form-row">
+
+                <label>
+                    Name
+
+                    <input
+                        type="text"
+                        id="bookingName"
+                        placeholder="Your name"
+                        required
+                    >
+                </label>
+
+
+                <label>
+                    Email
+
+                    <input
+                        type="email"
+                        id="bookingEmail"
+                        placeholder="you@example.com"
+                        required
+                    >
+                </label>
+
+            </div>
+
+
+            <label>
+                Special requests
+
+                <textarea
+                    id="bookingMessage"
+                    placeholder="Allergies, occasion or anything we should know..."
+                ></textarea>
+            </label>
+
+
+            <button
+                type="submit"
+                class="booking-submit"
+            >
+                Request reservation
+                <span>↗</span>
+            </button>
+
+
+            <p
+                class="booking-message"
+                id="bookingMessageResult"
+            ></p>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+<!-- ================= GALLERY MODAL ================= -->
+
+<div class="gallery-modal" id="galleryModal">
+
+    <div
+        class="gallery-modal-overlay"
+        id="galleryOverlay"
+    ></div>
+
+    <button
+        class="gallery-close"
+        id="galleryClose"
+    >
+        ×
+    </button>
+
+    <div
+        class="gallery-preview"
+        id="galleryPreview"
+    ></div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
